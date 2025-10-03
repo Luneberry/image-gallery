@@ -24,7 +24,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-foreground/10">
       <div className="max-w-7xl mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
-          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-accent via-blue-500 to-accent bg-clip-text text-transparent animate-fadeIn">
+          <h1 className="text-4xl md:text-5xl font-bold text-yellow-500 animate-fadeIn">
             Image Gallery
           </h1>
 
