@@ -15,7 +15,7 @@ export default function ImageGallery() {
       let failures = 0;
 
       while (failures < 3) {
-        const imageUrl = `${CDN_URL}${imageNumber}.png`;
+        const imageUrl = `${CDN_URL}temp${imageNumber}.png`;
 
         try {
           const response = await fetch(imageUrl, { method: 'HEAD' });
