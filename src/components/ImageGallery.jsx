@@ -49,7 +49,7 @@ export default function ImageGallery() {
     return (
       <div className="min-h-screen bg-background px-4 py-8">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-4 gap-6">
             {[...Array(8)].map((_, index) => (
               <div
                 key={index}
@@ -80,7 +80,7 @@ export default function ImageGallery() {
   return (
     <div className="min-h-screen bg-background px-4 py-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-4 gap-6">
           {images.map((image, index) => (
             <ImageCard
               key={image.number}
